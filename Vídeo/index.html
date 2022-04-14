@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Vídeo no HTML5</title>
+</head>
+<body>
+    <h1>Inserindo vídeos hospedados localmente</h1>
+    <p>O vídeo do Youtube do <a href="https://www.youtube.com/playlist?list=PLHz_AreHm4dkZ9-atkcmcBaMZdmLHft8n" rel="nofollow" target="_blank" >canal Curso em Vídeo</a> está hospedado em um servidor</p>
+
+    <video width="850px" controls loop>
+        <source src="production ID_3864917.mp4" type="video/mp4">
+        <!--É importante que ao usar a tag source, você coloque vários tipos de mídia e formatos diferentes para atender as necessidades de todos os navegadores. EX:-->
+    </video> 
+    <br>
+    <br>
+    <video width="850px" controls loop poster="limoes-capa.png">
+        <source src="meu-video.mp4" type="video/mp4">
+        <source src="meu-video.m4v" type="video/mp4">
+        <source src="meu-video.ogv" type="video/ogg"> 
+        <p>Infelizmente o vídeo não é compativel com seu navegador,<a href="meu-video.mp4" download="meu-video.mp4"> aperte aqui para fazer o download</a> do mesmo</p>   
+    </video> 
+    <br>
+    <br>
+    <audio preload="metadata" controls loop >
+        <source src="Tuesday Dub - Silent Partner.mp3" type=" audio/mpeg">
+        <p>Seu navegador Infelizmente não é compativel com o formato do aquivo, para <a href="Tuesday Dub - Silent Partner.mp3" download="Tuesday Dub - Silent Partner.mp3">baixa-lo aperte aqui</a></p>
+    </audio>
+    <br><br>
+    <h2>Incorporando Vídeos do Youtube</h2> <!--Incorporando vídeos externos, você não gasta dados de tráfego assim como gasta quando usa de links hospedados, como os acima-->
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/CAYDRIbXFAc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</body>
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Imagens Dinâmicas</title>
+</head>
+<body>
+    <h1>Imagens Dinâmicas</h1>
+    <p>Nesta página você vai treinar o uso de novas tags <mark style="background-color: coral;">capazes de tornar as imagens do seu site <strong>dinâmicas</mark> </strong>para se adaptarem ao tamanho da sua tela</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="foto-p.png" type="image/png">  
+        <source media="(max-width: 1050px)" srcset="foto-m.png" type="image/png">
+        <img src="foto-g.png" alt="Imagem de tamanho grande com um G dentro">
+    </picture>
+    <h2>Colocando aúdio no seu site</h2>
+    <p>Aqui vamos inserir aúdio no seu site!</p>
+    <audio preload="metadata" autoplay controls loop>
+        <source src="Tuesday Dub - Silent Partner.mp3" type="audio/mpeg"> 
+        <!--Com a tag source você faz um código mas profissional pois você pode inserir váriados formatos de midía, assim se um navegador em especifico não for compativel, ele vai para o próximo <source> e tenta novamente,até não ter mais opções, caso na pior das hipóteses o navegador não carregar nenhuma mídia, coloque um <p> com link como fiz abaixo-->
+        <p>Infelizmente seu navegador não suporta esse aúdio, para ter acesso,<a href="Tuesday Dub - Silent Partner.mp3" download="Tuesday Dub - Silent Partner.mp3"> baixe o aúdio aqui!</a></p>
+    </audio>
+</body>
+</html>

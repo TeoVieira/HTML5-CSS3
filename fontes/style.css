@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,300;0,400;0,500;0,600;1,100;1,300;1,400;1,500&display=swap');
+
+body {
+    font: normal 1em 'Work Sans', sans-serif; 
+    /*
+    OBS: A sequencia da SHORTHAND FONT é: font-style --> font-weight --> font-size --> font-family
+    - Támbem tem o text-decoration: underline; que deixa o texto sublinado (substitui a tag <ins>)
+    font-weight: normal;
+    font-size: 1em;
+    font-family: "Work Sans";
+    */
+    background-image: linear-gradient(to right, #C4EEF2, #3E848C);
+}
+
+h1 {
+    font: italic bolder 3em 'Work Sans', sans-serif; ;
+    text-decoration: underline;
+    /*
+    font-style: italic;
+    font-weight: bolder;
+    font-size: 3em;
+    font-family: "Work Sans";
+    */
+}
+
+h2 {
+    font: italic bold 2em 'Work Sans', sans-serif;
+    /*
+    font-style: italic;
+    font-weight: bold;
+    font-size: 2em;
+    font-family: "Work Sans";
+    */
+}
+

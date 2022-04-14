@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: "LOVE";
+    src: url(arquivos/love\ story.ttf) format("Truetype");
+}
+
+body {
+    font: normal 1em arial, verdana, sans-serif;
+    text-align: left;
+}
+
+h1 {
+    font-family: "LOVE";
+    text-align: center;
+    background-color: #64b3f8;
+    border-radius: 5px;
+}
+
+p {
+    text-align: justify;
+    text-indent: 1em;
+}
+
+#video {
+    text-align: center;
+}
+
+.centralizador {
+    text-align: center;
+}
+
+p#imagem {
+    text-align: center;
+}
+
+body {
+    background-image: linear-gradient(to right, #9be6ee, #8DE8F2, #4ca3ee );
+}
+ /*
+#94F250
+ */

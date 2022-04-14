@@ -1,0 +1,63 @@
+@charset "UTF-8";
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to right, white, rgb(255, 117, 117), red );
+}
+
+h1 {
+    text-align: center;
+    font-size: 2em;
+
+    height: 50px;
+    width: 500px;
+
+    /*
+    pode usar uma shorthand:
+    border: 1em solid darkred
+    ( width, style and color)
+    */
+    border-width: 0.2em;
+    border-style: solid;
+    border-color: darkred;
+
+    /*
+    pode usar uma shorthand também
+    padding: 10px 10px 10px 10px
+    (são quatro 10px pq são quatro lados, top, right, bottom and left)
+    */
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+p {
+    text-align: justify;
+    font-size: 1em;
+    text-indent: 5px;
+
+    border: 0.2em solid darkred;
+
+    
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+a {  
+    padding-top: 2px;
+    padding-right: 2px;
+    padding-bottom: 2px;
+    padding-left: 2px;
+
+    border-width: 0.2em;
+    border-style: solid;
+    border-color: darkred;
+
+    display: inline-block;
+}

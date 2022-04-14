@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Citações e Códigos</title>
+</head>
+<body>
+    <h1>Outras formatações</h1>
+    <h2>Código fonte</h2>
+    <p><strong>&lt;code&gt;</strong>: É usada para deixar o texto em um formato parecido com o de um código de programação, o nome é <mark style="background-color: red;">auto explicativo!</mark> <br> EX: O comando <strong><code>document.getElementById('teste')</code></strong> é escrito em <ins>JavaScript </ins>. <br> <del>OBS</del>: Usei a tag &lt;strong&gt; para deixar o comando mais destacado e a tag &lt;ins&gt; para destacar o JavaScript, além da tag &lt;del&gt; para deixar o OBS desse jeito.</p>
+    <p> Pequeno código em <ins>Python</ins> para demonstras a tag &lt;pre&gt;:
+        <pre>
+        <code> 
+            <strong>
+        while Resposta != 'F' and Resposta != 'Q':
+        Resposta=input('Digite F ou Q: ')
+        if Resposta == 'F':
+            FibA = 1
+            FibB = 1
+        elif Resposta == 'Q':
+            while True:
+                FibA = int(input('Entre com o primeiro número: '))
+                FibB = int(input('Entre com o segundo número: '))
+                if FibA == 0 and FibB == 0:
+                print('Um deles deve ser diferente de zero!')
+                else: break
+        while True:
+        Ult=int(input('Entre com o número de elementos: '))
+        if Ult <=1:
+            print('O número de elementos deve ser >= 2!')
+            </strong>
+        </code>
+        </pre>
+    </p>
+    <h2>Citações Simples</h2>
+    <p>Como dizia um pai de um amigo meu:<q><em>O computador é um burro muito rápido</em></q></p>
+    <p><strong>&lt;q&gt;</strong>: O que é visualmente uma aspa, mas o navegador prioriza ele como uma citação, então se for fazer uma citação <strong><ins>IMPORTANTE</ins></strong> use essa tag</p>
+    <h2>Citações Completas</h2>
+    <p>Como dizia <strong><ins>Napoleão Bonaparte</ins></strong>:</p>
+    <blockquote cite="http://viajarparis.com.br/2020/11/frases-de-napoleao-bonaparte-para-se-inspirar/">
+        <em>"A religião é aquilo que impede os pobres de matarem os ricos."</em>
+    </blockquote>
+    <h2>Abreviações</h2>
+    <p><abbr title="HyperText Markup Language">HTML5</abbr> e o <abbr title="Cascading Style Sheets">CSS3</abbr> são usados para dar a estrutura e o visual de um site</p>
+</body>
+</html>
