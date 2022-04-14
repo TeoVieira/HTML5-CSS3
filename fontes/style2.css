@@ -1,9 +1,0 @@
-@font-face {
-    font-family: "Love";
-    src: url("love\ story.ttf") format("truetype");
-}
-
-h1 {
-    font-family: "Love", "Arial";
-}  
-
